@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = (webpackConfigEnv) => {
   const defaultConfig = singleSpaDefaults({
-    orgName: "ComPetit",
+    orgName: "competit",
     projectName: "root-config",
     webpackConfigEnv,
   });

@@ -9,9 +9,15 @@ registerApplication({
   activeWhen: ["/"],
 });
 
+registerApplication({
+  name: "@competit/navbar",
+  app: () => System.import("@competit/navbar"),
+  activeWhen: ["/"],
+});
+
 // registerApplication({
-//   name: "@ComPetit/navbar",
-//   app: () => System.import("@ComPetit/navbar"),
+//   name: "@competit/navbar",
+//   app: () => System.import("@competit/navbar"),
 //   activeWhen: ["/"]
 // });
 
